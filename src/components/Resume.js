@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Educaiton from './Education';
+import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
 
@@ -34,19 +34,19 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-            <Educaiton
+            <Education
               startYear={2018}
               endYear={2018}
               schoolName='Green Fox Academy'
               schoolDescription='Junior Software Developer course at GFA: basic programming concepts, JavaScript, TypeScript'
             />
-            <Educaiton
+            <Education
               startYear={2009}
               endYear={2014}
               schoolName='Eötvös Loránd University'
               schoolDescription='I graduated at Faculty of Arts with Editor specialization. In my dissertation I examine the effect of manipulation in television commercials.'
             />
-            <Educaiton
+            <Education
               startYear={2010}
               endYear={2013}
               schoolName='Zsigmond Király College'
