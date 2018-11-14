@@ -123,3 +123,16 @@
   padding-right: 5rem;
 
 }
+
+/* CONTACT PAGE CSS */
+.resume-right-col {
+  background: #27221F;
+  color: #ffffff;
+  padding: 2em;
+}
+
+#sorsi-resume {
+  width: 320px;
+  border-radius: 50%;
+}
+

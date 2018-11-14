@@ -12,18 +12,18 @@ class App extends Component {
           <Layout >
             <Header className="header-color" title="Sorsi" scroll>
               <Navigation>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/Contact">Contact</Link>
-                <Link to="/Projects">Projects</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
               </Navigation>
             </Header>
             <Drawer title="Sorsi">
               <Navigation>
-                <Link to="/aboutme">About me</Link>
-                <Link to="/Contact">Contact</Link>
-                <Link to="/Projects">Projects</Link>
+                <Link to="/about">About me</Link>
                 <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
               </Navigation>
             </Drawer>
             <Content>

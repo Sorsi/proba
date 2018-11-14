@@ -11,7 +11,7 @@ class Landing extends Component {
             <div className="profile-pic-container">
               <img
                 className="profile-pic"
-                src="Sorsi.png"
+                src="Sorsi-home.png"
                 alt="pic"
               />
             </div>

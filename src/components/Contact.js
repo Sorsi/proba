@@ -12,7 +12,7 @@ class Contact extends Component {
             <h2>Orsolya Sütő</h2>
             <img
               id="profile-pic"
-              src="Sorsi.png"
+              src="Sorsi-about.png"
               alt="profile"
               style={{ height: '250px' }}
             />
