@@ -159,3 +159,10 @@
   padding: auto;
   text-align: justify;
 }
+
+
+@media screen and (max-width: 414px) {
+  .contact-body .about-container {
+    width: 300px;
+  }
+}
