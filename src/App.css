@@ -17,7 +17,6 @@
   width: 100%;
   min-width: 664px;
   height: 100%;
-  max-width: ;
 }
 
 .profile-pic {
@@ -161,18 +160,18 @@
   line-height: 42px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .about-container {
     width: 250px;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
   .contact-list i {
     font-size: 24px;
     padding-right: 5rem;
   }
-  span.mdl-list__item-primary-content {
+  .mdl-list__item-primary-content {
     font-size: 12px;
   }
 }
