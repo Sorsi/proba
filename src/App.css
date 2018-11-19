@@ -74,7 +74,7 @@
 
 /* CONTACT PAGE CSS */
 .contact-body {
-  margin: auto;
+  margin: 4em;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -90,17 +90,6 @@
   background: #ffffff;
   color: black;
   margin-bottom: 20px;
-}
-
-#profile-pic {
-  width: 250px;
-  border-radius: 10%; 
-}
-
-#intro {
-  width: 75%;
-  margin: auto;
-  padding-top: 1em;
 }
 
 .contact-grid h2 {
@@ -121,7 +110,6 @@
 .contact-list i {
   font-size: 60px;
   padding-right: 5rem;
-
 }
 
 /* RESUME PAGE CSS */
@@ -134,4 +122,39 @@
 #sorsi-resume {
   width: 320px;
   border-radius: 50%;
+}
+
+/* ABOUT PAGE CSS */
+.about-container {
+  margin: 4em;
+  position: fixed;
+  width: 90%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.about-container #profile-pic {
+  width: 250px;
+}
+
+#profile-pic {
+  border-radius: 50%;
+}
+
+#intro {
+  width: 100%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.about-container h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.about-container p {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+  margin: auto;
+  padding: auto;
+  text-align: justify;
 }
