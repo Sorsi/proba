@@ -58,7 +58,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2018}
               jobName='Junior Software Developer at GFA'
-              jobDescription='At Green Fox Academy I worked on a real life, greenfield, full-stack project. We developed (with my team together) a CRM system, a responsive drag and drop webapplication with React frontend and NodeJs backend. Further technologies that we used: Redux, AntDesign, Sass, MongoDB, HTML, DOM, CSS, GitHUB, version control, Visual Studio, FeathersJS'
+              jobDescription='At Green Fox Academy I worked on a real life, greenfield, full-stack project. We developed (with my team together) a CRM system, a responsive drag and drop webapplication with React frontend and Node.js backend. Further technologies that we used: Redux, AntDesign, Sass, MongoDB, HTML, DOM, CSS, GitHUB, version control, Visual Studio, FeathersJS'
             />
             <Experience
               startYear={2016}
