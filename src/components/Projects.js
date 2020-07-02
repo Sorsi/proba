@@ -16,9 +16,13 @@ import weatherApp from "../images/weatherApp.png";
 import roboFriends from "../images/roboFriends.png";
 
 class Projects extends Component {
-  state = {
-    activeTab: 0,
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeTab: 0,
+    };
+    this.toggleCategories = this.toggleCategories.bind(this);
+  }
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
@@ -139,14 +143,12 @@ class Projects extends Component {
               style={{
                 color: "#000",
                 height: "176px",
-                background:
-                  `url(${roboFriends})  center / cover`,
+                background: `url(${roboFriends})  center / cover`,
               }}
-            >
-            </CardTitle>
+            ></CardTitle>
             <CardText>RoboFriends</CardText>
             <CardActions border>
-            <a
+              <a
                 className="button-ancestor"
                 href="https://github.com/Sorsi/PlanetApps/tree/master/robofriends"
                 rel="noopener noreferrer"
@@ -175,8 +177,7 @@ class Projects extends Component {
                 background:
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover",
               }}
-            >
-            </CardTitle>
+            ></CardTitle>
             <CardText>### React Project 3 ###</CardText>
             <CardActions border>
               <button>GitHub</button>
