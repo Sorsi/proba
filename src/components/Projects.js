@@ -14,6 +14,10 @@ import {
 import quizUp from "../images/quizUp.png";
 import weatherApp from "../images/weatherApp.png";
 import roboFriends from "../images/roboFriends.png";
+import movieDatabase from "../images/movieDatabase.png";
+import coffeeStore from "../images/coffeeStore.png";
+import mathSite from "../images/mathSite.png";
+import pure from "../images/pure.png";
 
 class Projects extends Component {
   constructor(props) {
@@ -53,6 +57,14 @@ class Projects extends Component {
                 target="_blank"
               >
                 Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href=""
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
               </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -133,6 +145,14 @@ class Projects extends Component {
               >
                 Show a pic
               </a>
+              <a
+                className="button-ancestor"
+                href="http://sorso.host20.uk/WeatherApp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -164,6 +184,14 @@ class Projects extends Component {
               >
                 Show a pic
               </a>
+              <a
+                className="button-ancestor"
+                href="http://sorso.host20.uk/RoboFriends/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -174,14 +202,35 @@ class Projects extends Component {
               style={{
                 color: "#000",
                 height: "176px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2000px-React-icon.svg.png) center / cover",
+                backgroundImage: `url(${movieDatabase})`,
               }}
             ></CardTitle>
-            <CardText>### React Project 3 ###</CardText>
+            <CardText>Movie Database</CardText>
             <CardActions border>
-              <button>GitHub</button>
-              <button>CodePen</button>
+            <a
+                className="button-ancestor"
+                href="https://github.com/Sorsi/PlanetApps/tree/master/movie-database"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="button-ancestor"
+                href={movieDatabase}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href="http://sorso.host20.uk/MovieDatabase/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -191,8 +240,124 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>Coming soon...</h1>
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                backgroundImage: `url(${coffeeStore})`,
+              }}
+            ></CardTitle>
+            <CardText>Weather App</CardText>
+            <CardActions border>
+              <a
+                className="button-ancestor"
+                href="https://github.com/Sorsi/Sorsi-s-Coffe-Store"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="button-ancestor"
+                href={coffeeStore}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href="http://sorso.host20.uk/CoffeeStore/index.html"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                background: `url(${mathSite})  center / cover`,
+              }}
+            ></CardTitle>
+            <CardText>Math Site</CardText>
+            <CardActions border>
+              <a
+                className="button-ancestor"
+                href="https://github.com/Sorsi/Math-Site"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="button-ancestor"
+                href={mathSite}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href="http://sorso.host20.uk/MathsWebsite/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                backgroundImage: `url(${pure})`,
+              }}
+            ></CardTitle>
+            <CardText>Next one...</CardText>
+            <CardActions border>
+            <a
+                className="button-ancestor"
+                href="https://github.com/Sorsi/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="button-ancestor"
+                href={pure}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href="https://github.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
@@ -208,7 +373,7 @@ class Projects extends Component {
         >
           <Tab>Angular</Tab>
           <Tab>React</Tab>
-          <Tab>Vue.js</Tab>
+          <Tab>Pure JS</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>
