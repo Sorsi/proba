@@ -249,7 +249,7 @@ class Projects extends Component {
                 backgroundImage: `url(${coffeeStore})`,
               }}
             ></CardTitle>
-            <CardText>Weather App</CardText>
+            <CardText>Coffee Store</CardText>
             <CardActions border>
               <a
                 className="button-ancestor"
