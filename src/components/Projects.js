@@ -60,7 +60,7 @@ class Projects extends Component {
               </a>
               <a
                 className="button-ancestor"
-                href=""
+                href="http://sorso.host20.uk/CoffeeQuiz"
                 rel="noopener noreferrer"
                 target="_blank"
               >
