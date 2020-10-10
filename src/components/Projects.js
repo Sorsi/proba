@@ -327,11 +327,11 @@ class Projects extends Component {
                 backgroundImage: `url(${pure})`,
               }}
             ></CardTitle>
-            <CardText>Next one...</CardText>
+            <CardText>Maths Game</CardText>
             <CardActions border>
             <a
                 className="button-ancestor"
-                href="https://github.com/Sorsi/"
+                href="https://github.com/Sorsi/MathsGame"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -347,7 +347,7 @@ class Projects extends Component {
               </a>
               <a
                 className="button-ancestor"
-                href="https://github.com/"
+                href="http://sorso.host20.uk/MathsGame/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
