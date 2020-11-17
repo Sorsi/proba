@@ -18,6 +18,7 @@ import movieDatabase from "../images/movieDatabase.png";
 import coffeeStore from "../images/coffeeStore.png";
 import mathSite from "../images/mathSite.png";
 import pure from "../images/pure.png";
+import memoriesApp from "../images/memoriesApp.png"
 
 class Projects extends Component {
   constructor(props) {
@@ -226,6 +227,45 @@ class Projects extends Component {
               <a
                 className="button-ancestor"
                 href="http://sorso.host20.uk/MovieDatabase/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                App
+              </a>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                backgroundImage: `url(${memoriesApp})`,
+              }}
+            ></CardTitle>
+            <CardText>Memories App</CardText>
+            <CardActions border>
+              <a
+                className="button-ancestor"
+                href="https://github.com/Sorsi/Memories"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className="button-ancestor"
+                href={memoriesApp}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Show a pic
+              </a>
+              <a
+                className="button-ancestor"
+                href="https://xenodochial-euler-0680bb.netlify.app/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
